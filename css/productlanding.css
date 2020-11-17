@@ -16,6 +16,7 @@ body {
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	z-index: 2;
 }
 
 nav > ul {
@@ -51,6 +52,10 @@ a, a:visited {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+#about, #selection, #guarantee {
+	text-align: center;
 }
 
 input {
