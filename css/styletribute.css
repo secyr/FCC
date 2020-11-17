@@ -1,5 +1,5 @@
 body {
-	display: relative;
+	position: relative;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background-color: #9E9CA5;
@@ -21,21 +21,30 @@ p {
 }
 
 #img-div {
+	margin: 0 auto;
 	display: flex;
+	justify-content: center;
 }
 
 #image {
-	justify-content: center;
-	max-width: 100%;
+	width: 100%;
+	max-width: 650px;
 	height: auto;
-	display: block;
+	flex-basis: ;
+	
 
 }
 
 #tribute-info {
 	width: 100%;
 	margin: 0 auto;	
+	padding: 15px;
+}
+
+#information {
 	display: flex;
+	flex-direction: column; 
+	justify-content: center;
 }
 
 
@@ -45,24 +54,22 @@ h3 {
     background-color: #9782DE;
     border: solid 2px black;
     border-radius: 10px;
-    transform: opacity (50%);
     text-align: center;
     margin: 15px 50px;
 
     
 }
 
-
 .works {
-	width: 50%;
-	align-items: center;
+	width: 75%;
+	margin: 0 auto;
 
 	
 }
 
 .awards {
-	width: 50%;
-	align-items: center;
+	width: 75%;
+	margin: 0 auto;
 	
 }
 
