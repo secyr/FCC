@@ -1,7 +1,13 @@
 body {
+<<<<<<< HEAD
 	display: relative;
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: 1rem;
+=======
+	position: relative;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+>>>>>>> b50987bdc096591f6ed0b218e0d458812fb274f1
 	background-color: #9E9CA5;
 }
 
@@ -22,24 +28,38 @@ p {
 }
 
 #img-div {
+	margin: 0 auto;
 	display: flex;
+<<<<<<< HEAD
 	max-width: 60%;
 	margin: 0 auto;
+=======
+	justify-content: center;
+>>>>>>> b50987bdc096591f6ed0b218e0d458812fb274f1
 }
 
 #image {
-	justify-content: center;
-	max-width: 100%;
+	width: 100%;
+	max-width: 650px;
 	height: auto;
-	display: block;
+	flex-basis: ;
+	
 
 }
 
 #tribute-info {
 	width: 100%;
 	margin: 0 auto;	
+	padding: 15px;
+}
+
+#information {
 	display: flex;
+<<<<<<< HEAD
 	flex-direction: column;
+=======
+	flex-direction: column; 
+>>>>>>> b50987bdc096591f6ed0b218e0d458812fb274f1
 	justify-content: center;
 }
 
@@ -51,12 +71,28 @@ h3 {
     border-radius: 10px;
     text-align: center;
     margin: 15px 50px;
+<<<<<<< HEAD
 	
 }
 
 .trib-section {
 	width: 60%;
 	text-align: center;
+=======
+
+    
+}
+
+.works {
+	width: 75%;
+	margin: 0 auto;
+
+	
+}
+
+.awards {
+	width: 75%;
+>>>>>>> b50987bdc096591f6ed0b218e0d458812fb274f1
 	margin: 0 auto;
 	
 }
