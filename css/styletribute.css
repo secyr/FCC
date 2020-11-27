@@ -1,16 +1,16 @@
 body {
 	display: relative;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 1rem;
 	background-color: #9E9CA5;
 }
 
 #main {
-	background-color: #A3A59C;
+	background-color: #8146c5b6;
 }
 
 #title {
-	font-family: "Big Shoulders Inline Text", Raleway, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-align: center;
 }
 
@@ -18,10 +18,13 @@ p {
 	font-style: italic;
 	font-size: 12px;
 	text-align: center;
+	font-family: "Noto Sans JP", sans-serif;
 }
 
 #img-div {
 	display: flex;
+	max-width: 60%;
+	margin: 0 auto;
 }
 
 #image {
@@ -36,33 +39,25 @@ p {
 	width: 100%;
 	margin: 0 auto;	
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
 
 h3 {
-	width: 50%;
-    background-color: #9782DE;
+    background-color: #c0d3e7;
     border: solid 2px black;
     border-radius: 10px;
-    transform: opacity (50%);
     text-align: center;
     margin: 15px 50px;
-
-    
-}
-
-
-.works {
-	width: 50%;
-	align-items: center;
-
 	
 }
 
-.awards {
-	width: 50%;
-	align-items: center;
+.trib-section {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
 	
 }
 
@@ -72,5 +67,14 @@ h3 {
 
 ul {
 	text-align: left;
+	list-style-type: none;
+}
 
+li {
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
 }
